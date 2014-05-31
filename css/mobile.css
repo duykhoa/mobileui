@@ -260,7 +260,7 @@
 }
 
 .step {
-  margin-top: 10px;
+  margin-top: 10vh;
 }
 
 .step > ul {
@@ -273,7 +273,7 @@
 .step > ul > li {
   display: table-cell;
   width: 23%;
-  padding: 2vh 1%;
+  padding: 4vh 1%;
   background-color: #CCC;
   border-right: 1px solid #999;
   text-align: center;
@@ -292,10 +292,14 @@
 }
 
 .commander > button {
-  padding: 2vh 2.5vw;
+  margin-top: 3vh;
+  padding: 4vh 2.5vw;
   background: url('../image/btn-full-pink.png') 100% 100% no-repeat;
   background-size: 100% 100%;
   border: 0;
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #FFF;
 }
 
 .mon-panier {
@@ -315,5 +319,118 @@
 
 .mon-panier > .content {
   float: left;
+  margin-top: 3vw;
+}
+
+.mon-panier > .contient {
+  font-size: 2.5vw;
+  color: #AAA;
+  margin-left: 2vw;
+}
+
+.items > .item {
+  display: table;
+  width: 100%;
+}
+
+.items > .item > .first-line > .shopicon, .items > .item > .first-line > .item-description {
+  display: table-cell;
+  vertical-align: top;
+  padding: 3vh 2vw;
+  font-size: 2.8vw;
+}
+
+.items > .item > .first-line {
+  display: table-row;
+}
+
+.items > .item > .first-line > .shopicon {
+  width: 20%;
+}
+
+.items > .item > .first-line > .item-description {
+  width: 70%;
+}
+
+.items > .item > .first-line > .close {
+  display: table-cell;
+}
+
+.items > .item > .first-line > .close > span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  color: #EEE;
+  font-size: 2vw;
+  text-align: center;
+  border-radius: 100%;
+  background: #888;
+}
+
+.items > .item > .first-line >.item-description > .name {
+  font-weight: 700;
+}
+
+.items > .item > .second-line {
+  display: table-row;
+}
+
+.items > .item > .second-line > .shopicon {
+  display: table-cell;
+  width: 20%;
+}
+
+.items > .item > .second-line > .amount {
+  display: table-cell;
+  width: 70%;
+}
+
+.items > .item > .second-line > .amount > .select > span {
+  border: 1px solid #999;
+  font-size: 2vw;
+  padding: 1vh 1vw;
+  color: #999;
+}
+
+.items > .item > .second-line > .amount > .select > span:after {
+  border-top: 0.6vw solid #999;
+  border-left: 0.5vw solid transparent;
+  border-right: 0.5vw solid transparent;
+  content: '';
+  display: inline-block;
+  position:relative;
+  margin-left: 1vw;
+  top: -5px;
+}
+
+.items > .item > .second-line > .prices {
+  display: table-cell;
+  width: 10%;
+  font-size: 2vw;
+}
+
+.items > .item > .second-line > .prices > .new  {
+  color: #E20EE2;
+}
+
+.items > .item > .second-line > .prices > .old  {
+  color: #AAA;
+  text-decoration: line-through;
+}
+
+.items > .item > .third-line {
+  display: table-row;
+}
+
+.items > .break {
+  display: block;
+  margin-bottom: 1vh;
+  padding: 1vh 1vw;
+}
+
+.items > .break > .break-line {
+  padding-bottom: 5vh;
+  border-bottom: 2px dotted #BBB;
+  display: block;
 }
 
