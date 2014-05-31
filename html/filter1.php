@@ -3,6 +3,27 @@
   <link rel="stylesheet" type="text/css" href="../css/mobile.css">
 </head>
 <body>
+  <div class='menuzindex'>
+    <div class='table'>
+      <div class='row'>
+        <div class='cell-left'>
+          Annuler
+        </div>
+        <div class='cell-right'>
+          Appliquer
+        </div>
+      </div>
+      <div class='row'>
+        <ul>
+          <li>B.Young</li>
+          <li>Cedric Charlier</li> 
+          <li>Companiar fantastica</li> 
+          <li>Coulider deste</li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='shadow'></div>
   <div class='container'>
     <div class='row header'>
       <div class='tapicon'></div>
@@ -38,12 +59,46 @@
  <div class='filter'>
    <div class='row'>
     <div class='cell-left'>IL Y A 1520 PRODUITS</div>
-     <div class='cell-right'>Filtrer</div>
-     <div class='cell-right-outside'></div>
-   </div>
- </div>
+    <div class='cell-right'>Filtrer</div>
+    <div class='cell-right-outside'></div>
+  </div>
+</div>
 
- <hr>
+<hr>
+
+<div class='btn-close'>
+  <span>
+    38
+    <span>
+      x
+    </span>
+  </span>
+
+  <span>
+    Banana moon
+    <span>
+      x
+    </span>
+  </span>
+</div>
+
+<div class='row mon-more'>
+  <ul>
+    <li>TAILLES</li>
+    <li>PROMOS</li>
+    <li>MARQUES</li>
+    <li>COULEURS</li>
+    <li>PRIX</li>
+  </ul>
+</div>
+
+<div class='appliquer'>
+  <div class='row'>
+    <div class='cell-side'> </div>
+    <div class='cell-center'>APPLIQUER</div>
+    <div class='cell-side'> </div>
+  </div>
+</div>
 
 <div class='behind-page'></div>
 
@@ -51,7 +106,7 @@
   <div class='table'>
     <div class='row'>
       <div class='cell-left'>
-          <img src="../image/item.jpg" alt="">
+        <img src="../image/item.jpg" alt="">
       </div>
       <div class='cell-center'>
         <p class = 'header'>BANANA MOON</p>
@@ -67,7 +122,7 @@
     </div>
     <div class='row'>
       <div class='cell-left'>
-          <img src="../image/item.jpg" alt="">
+        <img src="../image/item.jpg" alt="">
       </div>
       <div class='cell-center'>
         <p class = 'header'>BANANA MOON</p>
@@ -83,7 +138,7 @@
     </div>
     <div class='row'>
       <div class='cell-left'>
-          <img src="../image/item.jpg" alt="">
+        <img src="../image/item.jpg" alt="">
       </div>
       <div class='cell-center'>
         <p class = 'header'>BANANA MOON</p>
@@ -99,7 +154,7 @@
     </div>
     <div class='row'>
       <div class='cell-left'>
-          <img src="../image/item.jpg" alt="">
+        <img src="../image/item.jpg" alt="">
       </div>
       <div class='cell-center'>
         <p class = 'header'>BANANA MOON</p>
@@ -115,7 +170,7 @@
     </div>
     <div class='row'>
       <div class='cell-left'>
-          <img src="../image/item.jpg" alt="">
+        <img src="../image/item.jpg" alt="">
       </div>
       <div class='cell-center'>
         <p class = 'header'>BANANA MOON</p>
@@ -131,7 +186,7 @@
     </div>
     <div class='row'>
       <div class='cell-left'>
-          <img src="../image/item.jpg" alt="">
+        <img src="../image/item.jpg" alt="">
       </div>
       <div class='cell-center'>
         <p class = 'header'>BANANA MOON</p>
@@ -147,7 +202,7 @@
     </div>
     <div class='row'>
       <div class='cell-left'>
-          <img src="../image/item.jpg" alt="">
+        <img src="../image/item.jpg" alt="">
       </div>
       <div class='cell-center'>
         <p class = 'header'>BANANA MOON</p>
@@ -160,11 +215,6 @@
       </div>
     </div>
     <div class='row-blank'>
-    </div>
-    <div  class='row-blank'>
-      <div class='cell'>
-        <img src="../image/imageload.gif">
-      </div>
     </div>
   </div>
 </div>
@@ -196,6 +246,11 @@
 <input type='submit' value='OK'>
 </div>
 </div>
-{
-  include file='footer.tpl'
-}
+<div class='row footer'>
+  <div class='header'> CGV I MENTION LEGALES </div>
+  <div class='copyright'>COPYRIGHT 2014 | SITEMAP</div>
+</div>
+</div>
+</body>
+</html>
+

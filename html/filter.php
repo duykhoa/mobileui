@@ -45,6 +45,40 @@
 
  <hr>
 
+ <div class='btn-close'>
+  <span>
+  38
+  <span>
+    x
+  </span>
+  </span>
+
+  <span>
+  Banana moon
+  <span>
+    x
+  </span>
+  </span>
+ </div>
+
+ <div class='row mon-more'>
+  <ul>
+    <li>TAILLES</li>
+    <li>PROMOS</li>
+    <li>MARQUES</li>
+    <li>COULEURS</li>
+    <li>PRIX</li>
+  </ul>
+</div>
+
+<div class='appliquer'>
+  <div class='row'>
+    <div class='cell-side'> </div>
+    <div class='cell-center'>APPLIQUER</div>
+    <div class='cell-side'> </div>
+  </div>
+</div>
+
 <div class='behind-page'></div>
 
 <div class='product-lisst'>
@@ -160,11 +194,6 @@
       </div>
     </div>
     <div class='row-blank'>
-    </div>
-    <div  class='row-blank'>
-      <div class='cell'>
-        <img src="../image/imageload.gif">
-      </div>
     </div>
   </div>
 </div>
