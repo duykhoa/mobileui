@@ -415,7 +415,6 @@
   display: inline-block;
   position:relative;
   margin-left: 1vw;
-  top: -5px;
 }
 
 .items > .item > .second-line > .prices {
@@ -1036,4 +1035,70 @@
 .payment > .container-payment > ul > li > span > span {
   display: block;
   font-size: 2vw;
+}
+
+.cadeau > .ca-container {
+  padding: 5vh 2vw;
+  background-color: #EEE;
+}
+
+.cadeau > .ca-container > .votre > .select > span {
+  display: inline-block;
+  border: 1px solid #999;
+  font-size: 2vw;
+  padding: 1vh 2vw;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  color: #999;
+}
+
+.cadeau > .ca-container > .votre > .select > span:after {
+  border-top: 1vw solid #999;
+  border-left: 0.5vw solid transparent;
+  border-right: 0.5vw solid transparent;
+  content: '';
+  display: inline-block;
+  position:relative;
+  margin-left: 3vw;
+}
+
+.cadeau > .ca-container > .item {
+  display: table-row;
+}
+
+.cadeau > .ca-container > .item > img,.cadeau > .ca-container > .item > .text {
+  display: table-cell;
+}
+
+.cadeau > .ca-container > .item > img {
+  border: 1px solid #AAA;
+  padding: 10px;
+}
+
+.cadeau > .ca-container > .item > .text {
+  vertical-align: top;
+  font-size: 2vw;
+}
+
+.cadeau > .ca-container > .votre > .select {
+  margin-top: 2vh;
+  font-size: 2vw;
+}
+
+.cadeau > .ca-container > .item > .text > .header {
+  font-weight: 700;
+}
+
+.cadeau > .ca-container > .au-panier {
+  text-align: right;
+}
+
+.cadeau > .ca-container > .au-panier > button {
+  padding: 3vh 4vw;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  background: url('../image/btn-full-pink.png') 100% 100% no-repeat;
+  background-size: 100% 100%;
+  border: 0;
+  color: #FFF;
 }
