@@ -443,7 +443,7 @@
 }
 
 .break-line {
-  padding-bottom: 5vh;
+  padding-bottom: 5vmin;
   border-bottom: 2px dotted #BBB;
   display: block;
 }
@@ -755,12 +755,12 @@
   float: right;
 }
 .mon-more {
-    padding: 10px;
+  padding: 10px 2vmin;
 }
 
 .mon-more > .comeback {
   font-size: 3vw;
-  margin-bottom: 10vh;
+  margin-bottom: 6vmin;
 }
 
 .mon-more > ul {
@@ -1254,8 +1254,59 @@
   background: url('../image/btn-full-pink.png') 100% 100% no-repeat;
   background-size: 100% 100%;
   border: 0;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   font-weight: 700;
   color: #FFF;
   display: block;
+}
+
+.histories > .header {
+  padding: 1vmin 2vw;
+  font-size: 3.9vw;
+  font-weight: 700;
+}
+
+.histories > .content {
+  padding: 1vh 2vw;
+  font-size: 2.9vw;
+}
+
+.date > table {
+  margin-top: 1.5vmin;
+  padding: 1vmin 2vw;
+  width: 100%;
+}
+
+.date table .datetime {
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.date table .link a {
+  font-size: 2.5vw;
+  color: #AAA;
+}
+
+.date table .link a:hover,.date table .link a:visited {
+  color: #AAA;
+}
+
+.date table tr td .client, .date table tr td .number {
+  font-size: 3vw;
+}
+
+.date table tr td .encours {
+  color: #E20EE2;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+
+.date table tr td .livre {
+  color: black;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+
+.row.blank {
+  height: 7vmin;
 }
